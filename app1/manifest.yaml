@@ -44,9 +44,9 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/tags: Environment=dev,Team=test
-    # alb.ingress.kubernetes.io/group.name: narendranreddy
+    alb.ingress.kubernetes.io/group.name: narendranreddy
 spec:
-  # ingressClassName: alb
+  ingressClassName: alb
   rules:
   - host: "app1.narendra.shop" # ALB Rule
     http:
