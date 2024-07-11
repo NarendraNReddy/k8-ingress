@@ -9,8 +9,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-    app: app1
-    purpose: ingress
+      app: app1
+      purpose: ingress
 
   template:
     metadata:
