@@ -1,3 +1,3 @@
 FROM nginx 
-RUN rm -ff /usr/share/nginx/html/index.html
-RUN echo "<h1>Hello,I am from APP-2</h1>" > /usr/share/nginx/html/index.html
+RUN rm -rf /usr/share/nginx/html/index.html
+RUN echo "<h1>Hello,i m from NNR2</h1>" > /usr/share/nginx/html/index.html
